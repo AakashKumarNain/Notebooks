@@ -6,6 +6,6 @@ between predictions and the grouth truth.
 Correct and Incorrect predictions are summarized with count values and broken down by each class. Implementing confusion matrix 
 is straight forward. 
 
-## Why this when sklearn provides an implementation?
+## Why this when sklearn already comes with an implementation?
 `sklear` has no doubt a very robust implementation of confsuion matrix. The downside is that when you have more than two classes,
 it doesn't provide the number of `TP`, `FP`, `TN` and `FN` for each class. This notebook aims to provide a method that can give the count for each category for each class
