@@ -12,6 +12,6 @@ it doesn't provide the number of `TP`, `FP`, `TN` and `FN` for each class. This 
 
 
 ## Requirements:
-Python>=3.5
-numpy>=1.15
-matplotlib
+* Python>=3.5
+* numpy>=1.15
+* matplotlib
