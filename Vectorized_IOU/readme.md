@@ -1,1 +1,1 @@
-# Vectroized implementation of IOU for bounding boxes
+# Vectorized implementation of IOU for bounding boxes
