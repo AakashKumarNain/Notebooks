@@ -6,4 +6,4 @@ Intersect over Union (IoU) is a metric that allows us to evaluate how similar ou
 ![alt text](./iou_equation.png)
 
 ## Why this implementation?
-IOU is an important metric for many types of models. It is heavily used in Object detection. Computing IOU for each pair(groundtruth and prediction) can be expensive if you are using a `for` loop. What we really want is a vectorized implementation so that we can computer the IOU in a single pass
+IOU is an important metric for many types of models. It is heavily used in Object detection. Computing IOU for each pair(groundtruth and prediction) can be expensive if you are using a `for` loop. What we really want is a vectorized implementation so that we can computer IOU for all pairs of boxes in a single pass.
