@@ -7,3 +7,8 @@ Quadratic Kappa allows you to weight the disagreements differently. It is especi
 
 # How does it calculated?
 
+`Weighted Kappa` calculation involves three matrices namely:
+* `O`: NxN normalized confusion matrix, denoting the observed agreement
+* `W`: NxN Weight matrix
+* `E`: NxN normalized expected matrix
+
